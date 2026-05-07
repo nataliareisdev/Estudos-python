@@ -1,0 +1,7 @@
+ idade = int(imput(" Digite sua idade: "))
+ cnh = imput ("Tem CNH? (sim/não): ")
+
+ if idade >= 18 and cnh == "sim" :
+     print ("você pode dirigir!")
+ else:
+     print(" você não pode dirigir!")
