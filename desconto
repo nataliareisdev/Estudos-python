@@ -1,0 +1,8 @@
+
+estudante = str (input ("Você é estudande ?   sim/não" ))
+idoso = str (input ("você é Idoso sim/não "))
+
+if estudante == "sim " or  idoso == "sim" :
+    print (" Você ganhou desconto!")
+else:
+    print(" Você não tem direito a desconto")
